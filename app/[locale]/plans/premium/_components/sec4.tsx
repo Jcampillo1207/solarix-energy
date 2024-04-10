@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import CardSpotlight from "@/components/ui/hoverCard";
 import VideoComponent from "@/components/main/videoComponent";
 import Image from "next/image";
+import { PopupForm } from "@/components/ui/popupForm";
 
 interface GridItem {
   title: string;
