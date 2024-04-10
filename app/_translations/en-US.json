@@ -1,0 +1,485 @@
+{
+  "Metadata": {
+    "home": "Solarix Energy",
+    "about": "About Us",
+    "sunpower": "Sunpower",
+    "max": "Max Plan",
+    "premium": "Premium Plan",
+    "tradicional": "Traditional Plan",
+    "agentes": "Our Agents",
+    "offgrid": "Off-grid",
+    "soporte": "Support",
+    "plans": "Our Plans",
+
+    "homedes": "Solarix Energy, based in Sonora, Mexico, offers high-quality renewable energy technological solutions for homes, businesses, and industries. Its focus is to drive a sustainable future through products and services that harness the power of the sun and other clean energy sources, providing efficiency and cost reduction."
+  },
+
+  "Header": {
+    "menu": "Menu",
+    "close": "Close menu",
+    "navigation": "Navigation",
+    "preferences": "Preferences",
+    "idiom": "Language",
+    "theme": "Theme",
+    "home": "Home",
+    "about": "About Us",
+    "agents": "Advisors",
+    "sunpower": "SunPower",
+    "max": "Max Plan",
+    "premium": "Premium Plan",
+    "traditional": "Traditional Plan",
+    "offgrid": "Off-grid",
+    "support": "Support",
+    "plans": "Plans"
+  },
+
+  "UniversalBanner": {
+    "text": "Contact us",
+    "btn": "Contact us"
+  },
+
+  "Table": {
+    "Head": {
+      "title1": "Product",
+      "title2": "Degradation",
+      "title3": "Power",
+      "title4": "Warranty",
+      "title5": "Lifespan",
+      "title6": "Estimated price per Kw installed"
+    },
+
+    "max": {
+      "text1": "Sun Power Maxeon Max 3 cells",
+      "text2": "0.25% annual",
+      "text3": "395-420W",
+      "text4": "40 years",
+      "text5": "60 years",
+      "text6": "$1,300 to $1,600 USD + VAT"
+    },
+
+    "premium": {
+      "text1": "SunPower Performance P6 Bifacial cells",
+      "text2": "0.45% annual",
+      "text3": "485-510W",
+      "text4": "25 years",
+      "text5": "35 years",
+      "text6": "$1,000 to $1,300 USD + VAT"
+    },
+
+    "tradicional": {
+      "text1": "Canadian Solar Hiku6 CS6W cells",
+      "text2": "0.55% annual",
+      "text3": "525-550W",
+      "text4": "12 years",
+      "text5": "25 years",
+      "text6": "$900 to $1,200 USD + VAT"
+    }
+  },
+
+  "Footer": {
+    "plan": "Plans",
+    "acerca": "About",
+    "contacto": "Contact and support",
+    "Derechos": "All rights reserved",
+    "Planes": {
+      "max": "Max Plan",
+      "premium": "Premium Plan",
+      "tradicional": "Traditional Plan",
+      "offgrid": "Off-grid"
+    },
+
+    "Acerca": {
+      "about": "About Us",
+      "agentes": "Our Agents",
+      "sunpower": "Sunpower"
+    },
+
+    "Contacto": {
+      "phone": "(662) 260 6761",
+      "mail": "ventas@solarix.mx",
+      "support": "Support"
+    }
+  },
+
+  "Universal": {
+    "btnCita": "Contact us",
+    "btnAgentes": "Our agents"
+  },
+
+  "Home": {
+    "Hero": {
+      "kpi1": "Up to 40 years warranty",
+      "kpi2": "+15 years of experience",
+      "kpi3": "Presence in 8 states",
+      "btn": "Contact us"
+    },
+
+    "Sec2": {
+      "title": "Our flagship clients"
+    },
+
+    "Sec3": {
+      "subtl": "Save",
+      "title": "Generate your own energy",
+      "text": "Investing in solar panels is a way to save money in the long term. The panels can pay for themselves in a few years thanks to the reduction in electricity bills. In addition, there are no additional fuel costs or significant maintenance."
+    },
+
+    "Sec4": {
+      "title": "What do our customers say?"
+    },
+
+    "Sec5": {
+      "subtl": "More energy",
+      "title": "For the same investment",
+      "text": "Investing in solar panels is a way to save money in the long term. The panels can pay for themselves in a few years thanks to the reduction in electricity bills. In addition, there are no additional fuel costs or significant maintenance."
+    },
+
+    "Sec6": {
+      "title": "Custom-made complete projects",
+      "text": "At Solarix, we have tailor-made plans, which are designed to meet your energy needs. Through a complete analysis of your property, we determine the number of panels needed for a complete energy coverage, as well as the suitable panel model to offer the best result.",
+      "grid": {
+        "title1": "Turnkey Projects",
+        "text1": "This term refers to complete projects that are ready to use from start to finish. SOLARIX would handle all stages of the project, from initial design to installation and commissioning, without the client having to worry about technical details.",
+        "icon1": "KeySquare",
+        "title2": "100% Customized Design and Planning",
+        "text2": "It means that SOLARIX creates unique designs tailored to the specific needs and conditions of each client. Each solar panel project is tailored to the characteristics of the location and the client's energy goals.",
+        "icon2": "Frame",
+        "title3": "Sunpower Solar Panels",
+        "text3": "SunPower is a recognized brand in the solar industry for its high-efficiency, quality panels. SOLARIX uses these panels in its projects to ensure maximum utilization of solar energy.",
+        "icon3": "Circle",
+        "title4": "Growatt Inverters",
+        "text4": "Inverters are key components in a solar system. Growatt is an inverter brand used by SOLARIX to convert the solar energy generated by the panels into usable electricity in homes or businesses.",
+        "icon4": "ServerCrash",
+        "title5": "Wiring and Anodized Aluminum Structure",
+        "text5": "Refers to the installation of cables and support structures made of aluminum that has been treated with a process called anodizing to make it more resistant to corrosion and durable in outdoor conditions.",
+        "icon5": "Cable",
+        "title6": "Electrical Material",
+        "text6": "Encompasses all the electrical components necessary for the safe and efficient operation of the solar system, such as cables, connectors, and electrical protections.",
+        "icon6": "PlugZap",
+        "title7": "Specialized Workforce",
+        "text7": "Indicates that SOLARIX's installation team is composed of professionals with knowledge and experience in the installation of solar systems, ensuring high-quality work.",
+        "icon7": "UserRoundSearch",
+        "title8": "Management with CFE",
+        "text8": "CFE is the Federal Electricity Commission in Mexico. SOLARIX takes care of the necessary management and procedures to connect the solar system to the electrical grid and comply with CFE's requirements and regulations.",
+        "icon8": "FileStack",
+        "title9": "Internet Monitoring",
+        "text9": "SOLARIX's solar panel systems include the ability to be monitored remotely via the internet. This allows real-time tracking of panel performance and energy production.",
+        "icon9": "Wifi"
+      }
+    },
+
+    "Sec7": {
+      "subtl": "Find",
+      "title": "Your energy advisor",
+      "text": "SunPower Maxeon panels will generate more energy than standard solar panels from day one. Each panel is designed to maximize the conversion of sunlight into electricity for your home."
+    },
+
+    "Sec8": {
+      "subtl": "Monitoring",
+      "title": "Keep your panels alive",
+      "text": "Maintaining solar panels is crucial to maximizing their performance and durability. In our blog, we offer expert advice and quality services to care for your solar energy investment. Join us in the pursuit of a more sustainable future and discover how we can help you keep your panels in optimal condition."
+    }
+  },
+
+  "About": {
+    "Hero": {
+      "subtl": "About Us",
+      "title": "Solarix Energy"
+    },
+
+    "Sec2": {
+      "subtl": "Backed by",
+      "title": "The best institutions",
+      "text": "Undoubtedly, these certificates not only provide security but also the absolute guarantee that your project will be carried out by true masters in the field. Obtaining such certificates reflects not only an exceptional level of skill, knowledge, and experience but also an unwavering commitment to excellence and perfection at every step of the way.",
+      "items": {
+        "title1": "Installation certificates",
+        "text1": "Experts certified in implementing residential, commercial, and industrial photovoltaic systems with excellence and precision. Your guarantee of reliable and efficient solar energy results.",
+        "title2": "Active Partners",
+        "text2": "Committed partners of COPARMEX, we find in this union a cohesive center to promote social well-being with determination and harmony.",
+        "title3": "Distinction",
+        "text3": "Recognized as reliable providers in the energy industry, our distinction highlights our commitment to quality, safety, and excellence in every delivery and service.",
+        "title4": "Experts",
+        "text4": "Recognized as specialists in Energy Sustainability by the University of Sonora (UNISON), validating our knowledge and leadership in promoting sustainable energy solutions."
+      }
+    },
+
+    "Sec3": {
+      "titleM": "Our Mission",
+      "textM": "To offer energy solutions that promote maximum savings through the best solar technology and excellent service to families, businesses, and industries in the country.",
+      "titleV": "Our Vision",
+      "textV": "To be leaders in the photovoltaic industry in Mexico, standing out for the high range of services and solar technology products, and constant innovation.",
+      "titleVal": "Our Values",
+      "items": {
+        "title1": "Innovation",
+        "title2": "Experience",
+        "title3": "Quality",
+        "title4": "Professionalism",
+        "title5": "Sustainability"
+      }
+    },
+
+    "Sec4": {
+      "title": "Our history",
+      "text": "Here we show you our history, in which you can see our trajectory through the years, making SOLARIX the company it is today.",
+      "items": {
+        "title1": "Background",
+        "year1": "2001",
+        "text1": "Solarix Energy is a subsidiary of LCP Grupo Peralta, S.A. de C.V., which for over 20 years has been providing solutions in electrical equipment, renewable technologies, and communication systems to Mexico's industry in medium and high voltage. Grupo Peralta was born as an alternative to meet the needs of the Federal Electricity Commission. Grupo Peralta developed residential solar energy projects and the first solar farm in Mexico, which to this day supplies clean energy to the community of Guaycora, Sonora with an isolated system of solar panels and batteries.",
+        "title2": "Beginnings",
+        "year2": "2015",
+        "text2": "Solarix Energy was born in 2015 with the goal and focus solely on offering innovative solutions in renewable energy generating systems for residences, businesses, and industry. At the beginning of 2021, Solarix Energy signed an alliance with SunPower with the goal of creating a differentiation strategy based on quality, reliability, and shopping experience. Solarix formalized itself as one of the first companies in Sonora focused 100% on offering solar energy solutions for its different clients, always offering the best available technologies.",
+        "title3": "Present",
+        "year3": "2023",
+        "text3": "Solarix seeks to satisfy and exceed the expectations of its clients. By mid-2023, Solarix Energy has installed just over 400 photovoltaic systems for residential, commercial, industrial clients, and isolated systems with lithium-based energy storage systems. Our current focus is to offer premium solar systems hand in hand with SunPower, based on technology, rapid response, and aesthetics in our installations, always with the goal of meeting the needs of our clients and the security of installations guaranteeing our systems with up to 40 years warranty. Currently, we have solar installations in 8 states and have the capacity to install in any state of the Mexican republic."
+      }
+    }
+  },
+
+  "Sunpower": {
+    "Hero": {
+      "subtl": "Meet"
+    },
+
+    "Sec2": {
+      "title": "Main partner",
+      "subtl": "Meet our",
+      "text": "SunPower stands as the leading photovoltaic technology company, leading from its base in the USA. With a remarkable trajectory of more than 35 years, it is a leader in manufacturing high-quality solar panels, leveraging its experience and advanced technology to push solar energy towards a brighter and more sustainable future.",
+      "items": {
+        "title1": "No. 1 in solar energy R+D investment and 900 patents",
+        "title2": "Most installed module in the USA",
+        "title3": "Leader in sustainable manufacturing",
+        "title4": "35 million panels installed in more than 1000 countries"
+      }
+    },
+
+    "Sec3": {
+      "title": "Some of the brands that prefer SUNPOWER"
+    }
+  },
+
+  "Max": {
+    "Hero": {
+      "title": "Maxeon Cells",
+      "subtl": "Max Plan"
+    },
+
+    "Sec2": {
+      "title": "For the same investment",
+      "subtl": "More energy",
+      "text": "SunPower Maxeon panels will generate more energy than standard solar panels from day one. Each panel is designed to maximize the conversion of sunlight into electricity for your home.",
+      "items": {
+        "title1": "Better performance at a lower temperature",
+        "text1": "To increase energy production in warm and sunny conditions, which leads to better performance per solar cell, increasing energy production.",
+        "title2": "Capturing more sun in low-light conditions",
+        "text2": "To ensure your panels generate energy earlier in the morning, later in the evening, and on cloudy days."
+      }
+    },
+
+    "Sec3": {
+      "title": "A better future for everyone",
+      "subtl": "Creating",
+      "text": "SunPower Maxeon panels will generate more energy than standard solar panels from day one. Each panel is designed to maximize the conversion of sunlight into electricity for your home.",
+      "items": {
+        "title1": "No grid lines",
+        "text1": "SunPower Maxeon cells use back-contact conductivity, eliminating unsightly metallic grid lines and allowing them to absorb more sunlight.",
+        "title2": "Solid metal backing",
+        "text2": "The metal adds massive strength to each cell, helping it resist corrosion from the elements, while making the entire panel more durable.",
+        "title3": "Thick connectors",
+        "text3": "The expansion and contraction from daily temperature changes are not a problem with our built-in stress relief and triple redundant thick connectors."
+      }
+    },
+
+    "Sec4": {
+      "title": "Built to perform under any scenario",
+      "subtl": "Resistance",
+      "text": "SunPower Maxeon solar panels are designed to be different and have proven to be better in more than five generations of cells, 3.5 billion cells, and 33 million panels, even in the harshest conditions. Conventional solar cells lose energy over time due to corrosion and breakage.",
+      "btn": "Learn more",
+      "items": {
+        "title1": "No grid lines",
+        "text1": "SunPower Maxeon cells use back-contact conductivity, eliminating unsightly metallic grid lines and allowing them to absorb more sunlight.",
+        "text2": "The metal adds massive strength to each cell, helping it resist corrosion from the elements, while making the entire panel more durable.",
+        "text3": "The expansion and contraction from daily temperature changes are not a problem with our built-in stress relief and triple redundant thick connectors."
+      }
+    },
+
+    "Sec5": {
+      "title": "Energy for life",
+      "subtl": "Secure investment",
+      "text": "The 40-year warranty of SunPower Maxeon offers comprehensive power, product, and service coverage that leads the industry. Each SunPower Maxeon panel is manufactured with absolute confidence in its ability to provide more energy, reliability, and savings over time, backed by extensive third-party testing and field data from more than 33 million panels installed worldwide.",
+      "items": {
+        "title1": "Product",
+        "text1": "Coverage for defects related to workmanship and materials for 40 years, compared to the classic warranty of 12 to 25 years for standard panels.",
+        "title2": "Power",
+        "text2": "The highest guaranteed power output in the solar industry: 88.3% at 40 years.",
+        "title3": "Service",
+        "text3": "Repair, replacement, or refund of any defective panel for 40 years, hassle-free, with removal, shipping, and installation included in the countries where it applies."
+      }
+    },
+
+    "Sec6": {
+      "title": "MAXEON 3 BLACK cells",
+      "btn": "Learn more",
+      "subtl": "Meet",
+      "text": "SunPower's Maxeon 3 Black cells are an industry-leading innovation in solar. With their sleek design and outstanding efficiency, these cells offer superior performance and attractive aesthetics. Discover the perfect combination of power and beauty in solar energy with SunPower's Maxeon Black cells.",
+      "title1": "No exposed metals",
+      "title2": "Avoids hot spots"
+    },
+
+    "Sec7": {
+      "title": "Our plans",
+      "subtl": "Compare",
+      "text": "At Solarix, we present plans tailored to your specific needs. We offer you a detailed analysis of the characteristics of each one so you can make an informed decision and choose the one that best suits your requirements."
+    },
+
+    "Sec8": {
+      "title": "Payment methods",
+      "text": "At Solarix, we are committed to providing you with flexible and convenient payment options, designed to fit your needs. Your satisfaction and trust are fundamental to us, so we work tirelessly to ensure that you enjoy the best possible experience when choosing our services. We are here to help you make informed decisions and facilitate your transactions, always prioritizing your comfort and peace of mind.",
+      "items": {
+        "title1": "Cash payment",
+        "text1": "80% upfront, 20% once the installation is completed and the procedure has been submitted to the CFE. (The time it takes for the CFE to change the meter is independent of us, so the final payment is made once the procedure has been submitted to the CFE) Cash MXN, Cash USD, Transfer MXN, Transfer USD in Mexico or USA.",
+        "title2": "Traditional credit",
+        "text2": "CiBanco: from 10% down payment and up to 7 years with a rate of 15.75% commission for opening of 2%. From 60 thousand to 5 million. Panel insurance can be financed or paid in cash. Physical or legal person.",
+        "title3": "BBVA: 0% down payment and up to 6 years",
+        "text3": "Interest rate adjusted to the customer with a direct 2% reduction in interest rate. From 1 million to 15 million Physical and legal person Fully tax deductible the first year.",
+        "title4": "BBVA financial leasing",
+        "text4": "Interest rate adjusted to the customer TIIE + (3-5pt) Up to 84 months term In USD or MXN Fully tax deductible Final value agreed in contract (from 1% to 10% depending on the term).",
+        "title5": "BBVA pure leasing",
+        "text5": "Interest rate adjusted to the customer of TIIE + (3-5pt) Up to 84 months term Increasing or decreasing rents In USD or MXN Rents deductible from taxes.",
+        "title6": "Months without interest for BBVA users.",
+        "text6": "We accept payment with any cryptocurrency, with an additional commission of 5%.",
+        "title7": "Cryptocurrencies",
+        "text7": "Indicates that the SOLARIX installation team is composed of professionals with knowledge and experience in the installation of solar systems, ensuring high-quality work.",
+        "title8": "Solarix payment scheme",
+        "text8": "Start paying for your solar system within a maximum period of 9 months, and when you reach 80%, the installation begins. This option does not carry interest or additional payments, this option is ideal for clients who are building their house or simply do not want to pay interest and are not in a hurry to install their solar system.",
+        "title9": "Rent your roof",
+        "text9": "Rent your roof Sister company of Solarix rentatutecho.com"
+      }
+    }
+  },
+
+  "Premium": {
+    "Hero": {
+      "title": "Performance Cells",
+      "subtl": "Premium Plan"
+    },
+
+    "Sec2": {
+      "title": "Bifacial Cells",
+      "subtl": "More energy",
+      "title1": "Increase in energy production",
+      "text": "SunPower Performance panels generate more energy than standard solar panels from day one. Each panel is designed to maximize the conversion of sunlight into electricity for your home.",
+      "items": {
+        "title1": "Area where the installation will be located.",
+        "title2": "Solar radiation on site.",
+        "title3": "Height of the panel above the roof/ground.",
+        "title4": "Inclination of the panel.",
+        "title5": "Orientation of the panel.",
+        "title6": "Reflectivity of the respective roof/ground material (Sheet, slab, color, etc)"
+      }
+    },
+
+    "Sec3": {
+      "title": "Our Best-Seller",
+      "subtl": "Recommendation",
+      "text": "Due to their bifacial technology, performance cells generate the most energy throughout the year, which is why they are the most recommended by us to our clients, as this additional energy can cover the increase in electrical consumption."
+    },
+
+    "Sec4": {
+      "title": "A better future for everyone",
+      "subtl": "Creating",
+      "text": "SunPower Maxeon panels will generate more energy than standard solar panels from day one. Each panel is designed to maximize the conversion of sunlight into electricity for your home.",
+      "items": {
+        "title1": "No grid lines",
+        "text1": "SunPower Performance cells use hypercells and back-contact conductivity, eliminating unsightly metallic grid lines and allowing them to absorb more sunlight.",
+        "title2": "Enhanced power density",
+        "text2": "With high efficiency, LID-resistant solar cells (G12, 210 mm), a lower temperature coefficient, and front conductive wires with higher current capture, the unique design of SunPower Performance panels allows them to deliver more lifetime energy than standard solar panels.",
+        "title3": "Proven reliability",
+        "text3": "A patented shingle-type cell design that maximizes durability in all weather conditions and includes reinforced cell connections to withstand the stresses of daily temperature changes, redundant electrical circuits that alleviate the impact of cracked cells, and an advanced electrical architecture more resistant to the effects of shading and capable of mitigating the formation of hot spots."
+      }
+    },
+
+    "Sec5": {
+      "title": "Turning the conventional into extraordinary",
+      "subtl": "We convert",
+      "text": "Shingle-type cell panel technology uniquely designed to obtain more energy, more reliability, and greater durability than traditional front-contact panels.",
+      "items": {
+        "title1": "Better performance against shadows",
+        "text1": "Performance panels are designed to avoid depending on diodes as the main mechanism to avoid hot spots. A smaller cell surface automatically reduces current while still maintaining direct physical contact with neighboring cells through a series of redundant connections that dissipate heat buildup in the cells."
+      }
+    },
+
+    "Sec6": {
+      "title": "Our plans",
+      "subtl": "Compare",
+      "text": "At Solarix, we present plans tailored to your specific needs. We offer you a detailed analysis of the characteristics of each one so you can make an informed decision and choose the one that best suits your requirements."
+    },
+
+    "Sec7": {
+      "title": "Payment methods",
+      "text": "At Solarix, we are committed to providing you with flexible and convenient payment options, designed to fit your needs. Your satisfaction and trust are fundamental to us, so we work tirelessly to ensure that you enjoy the best possible experience when choosing our services. We are here to help you make informed decisions and facilitate your transactions, always prioritizing your comfort and peace of mind.",
+      "items": {
+        "title1": "Cash payment",
+        "text1": "80% upfront, 20% once the installation is completed and the procedure has been submitted to the CFE. (The time it takes for the CFE to change the meter is independent of us, so the final payment is made once the procedure has been submitted to the CFE) Cash MXN, Cash USD, Transfer MXN, Transfer USD in Mexico or USA.",
+        "title2": "Traditional credit",
+        "text2": "CiBanco: from 10% down payment and up to 7 years with a rate of 15.75% commission for opening of 2%. From 60 thousand to 5 million. Panel insurance can be financed or paid in cash. Physical or legal person.",
+        "title3": "BBVA: 0% down payment and up to 6 years",
+        "text3": "Interest rate adjusted to the customer with a direct 2% reduction in interest rate. From 1 million to 15 million Physical and legal person Fully tax deductible the first year.",
+        "title4": "BBVA financial leasing",
+        "text4": "Interest rate adjusted to the customer TIIE + (3-5pt) Up to 84 months term In USD or MXN Fully tax deductible Final value agreed in contract (from 1% to 10% depending on the term).",
+        "title5": "BBVA pure leasing",
+        "text5": "Interest rate adjusted to the customer of TIIE + (3-5pt) Up to 84 months term Increasing or decreasing rents In USD or MXN Rents deductible from taxes.",
+        "title6": "Months without interest for BBVA users.",
+        "text6": "We accept payment with any cryptocurrency, with an additional commission of 5%.",
+        "title7": "Cryptocurrencies",
+        "text7": "Indicates that the SOLARIX installation team is composed of professionals with knowledge and experience in the installation of solar systems, ensuring high-quality work.",
+        "title8": "Solarix payment scheme",
+        "text8": "Start paying for your solar system within a maximum period of 9 months, and when you reach 80%, the installation begins. This option does not carry interest or additional payments, this option is ideal for clients who are building their house or simply do not want to pay interest and are not in a hurry to install their solar system.",
+        "title9": "Rent your roof",
+        "text9": "Rent your roof Sister company of Solarix rentatutecho.com"
+      }
+    }
+  },
+
+  "Contact": {
+    "title": "Get in touch with us",
+    "text": "At SOLARIX, we are proud to offer exceptional customer service and to be available to assist you at all times. Our team is committed to providing you with the support you need, whether it's answering questions, providing additional information, or resolving any issues you may encounter.",
+    "form": {
+      "title": "Contact form",
+      "namel": "Name",
+      "namep": "Enter your name",
+      "maill": "Email",
+      "mailp": "Enter your email",
+      "phonel": "Phone number",
+      "phonep": "Enter your phone number",
+      "tipol": "Type of project",
+      "tipop": "Select",
+      "tipos": {
+        "title1": "Residential",
+        "title2": "Commercial",
+        "title3": "Industrial",
+        "title4": "Off-grid (isolated)",
+        "title5": "Battery backup",
+        "title6": "Other"
+      },
+      "pagol": "Estimated payment to CFE",
+      "pagop": "e.g. 8712451",
+      "estadol": "State",
+      "estadop": "Enter your State",
+      "ciudadl": "City",
+      "ciudadp": "Enter your city",
+      "planl": "Planning time",
+      "planp": "Select",
+      "plan": {
+        "title1": "As soon as possible",
+        "title2": "3 months",
+        "title3": "6 months",
+        "title4": "12 months",
+        "title5": "I just want to quote"
+      },
+      "servl": "CFE Service Number (RPU)",
+      "servp": "e.g. ASF135138135",
+      "btn": "Send form"
+    }
+  }
+
+}
