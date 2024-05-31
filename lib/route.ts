@@ -18,7 +18,7 @@ export async function send(
 ) {
   const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
-  const subject =
+  const subject: string =
     (locale == "es-MX" &&
       "Gracias por enviar tu información, en breve te contactaremos") ||
     "Thank you for submitting your information, we will contact you shortly.";
