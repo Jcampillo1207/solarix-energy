@@ -22,6 +22,20 @@ export async function generateMetadata({ params: { locale } }: any) {
   return {
     title: t("agents"),
     description: t("agents"),
+    openGraph: {
+      type: "website",
+      url: "solarix.mx",
+      title: t("angents"),
+      description: t("angentsdes"),
+      siteName: t("angents"),
+      images: [
+        {
+          url: `https://flsqnnbcmtmltxmnygwe.supabase.co/storage/v1/object/sign/Grupo%20Expertix/ll.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJHcnVwbyBFeHBlcnRpeC9sbC5wbmciLCJpYXQiOjE3MTcxMzM1MzIsImV4cCI6NDg3MDczMzUzMn0.83tSL_iBhWb24jTKzyWADE4JWoEoZQ-ymRnf9aRqjAw&t=2024-05-31T05%3A32%3A12.147Z`,
+          height: 600,
+          width: 800,
+        },
+      ],
+    },
   };
 }
 

@@ -21,6 +21,20 @@ export async function generateMetadata({ params: { locale } }: any) {
   return {
     title: t("home"),
     description: t("homedes"),
+    openGraph: {
+      type: "website",
+      url: "solarix.mx",
+      title: t("home"),
+      description: t("homedes"),
+      siteName: t("home"),
+      images: [
+        {
+          url: `https://flsqnnbcmtmltxmnygwe.supabase.co/storage/v1/object/sign/Grupo%20Expertix/ll.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJHcnVwbyBFeHBlcnRpeC9sbC5wbmciLCJpYXQiOjE3MTcxMzM1MzIsImV4cCI6NDg3MDczMzUzMn0.83tSL_iBhWb24jTKzyWADE4JWoEoZQ-ymRnf9aRqjAw&t=2024-05-31T05%3A32%3A12.147Z`,
+          height: 600,
+          width: 800,
+        },
+      ],
+    },
   };
 }
 
@@ -96,7 +110,7 @@ export default function Home() {
             </span>
           </div>
           <div className="w-full h-fit items-center justify-center col-span-1 lg:col-span-4">
-            <PopupForm btn={u("btnCita")}/>
+            <PopupForm btn={u("btnCita")} />
           </div>
         </div>
       </HeroUniversal>
