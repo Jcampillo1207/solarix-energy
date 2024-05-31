@@ -187,8 +187,8 @@ export const FormDefault = ({ aa = false }: { aa?: boolean }) => {
       )}
     >
       {!aa && (
-        <div className="w-full h-fit items-start justify-start col-span-1 lg:col-span-2 mb-10">
-          <OnTitle className="text-xl md:text-2xl lg:text-3xl text-start tracking-normal">
+        <div className="w-full h-fit items-start justify-start col-span-1 lg:col-span-2 mb-5">
+          <OnTitle className="text-xl md:text-2xl lg:text-2xl text-start tracking-normal">
             {t("title")}
           </OnTitle>
         </div>
