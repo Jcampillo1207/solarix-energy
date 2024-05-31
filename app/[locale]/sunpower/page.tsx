@@ -44,7 +44,7 @@ export default function SunPower() {
       <HeroUniversal
         sunpower
         video="/maxeonvidpp.webm"
-        cover="/portada.png"
+        cover="/portsunp.png"
         title={t("Hero.subtl")}
       />
       <Sec2
