@@ -63,7 +63,7 @@ export async function sendForm(
 
   const { data } = await resend.emails.send({
     from: "Solarix Form <ventas@solarix.mx>",
-    to: ["ventas@solarix.mx"],
+    to: ["ventas@solarix.mx", "jcortes@solarix.mx"],
     subject: "Nueva respuesta de formulario",
     react: EmailReceiver({
       name,
