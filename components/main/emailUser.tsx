@@ -68,9 +68,8 @@ export const EmailUser = ({
           </Text>
         )) || (
           <Text style={paragraph2}>
-            You requested a project quote{" "}
-            <span style={paragraphData}>{type}</span>, we will try to contact
-            you shortly at the phone number{" "}
+            You requested a <span style={paragraphData}>{type}</span> project
+            quote , we will try to contact you shortly at the phone number
             <span style={paragraphData}>{phone}</span>. If we are unable to
             reach you by phone, we will try to contact you via email.
           </Text>

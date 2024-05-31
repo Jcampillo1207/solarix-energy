@@ -18,7 +18,7 @@ export async function send(
 ) {
   const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
-  const subject =
+  const subject: string =
     (locale == "es-MX" &&
       "Gracias por enviar tu información, en breve te contactaremos") ||
     "Thank you for submitting your information, we will contact you shortly.";
@@ -26,7 +26,7 @@ export async function send(
   const { data } = await resend.emails.send({
     from: "Solarix Energy <ventas@solarix.mx>",
     to: [email],
-    subject: { subject },
+    subject: subject,
     react: EmailUser({
       name,
       email,
@@ -63,7 +63,7 @@ export async function sendForm(
 
   const { data } = await resend.emails.send({
     from: "Solarix Form <ventas@solarix.mx>",
-    to: ["ventas@solarix.mx"],
+    to: ["ventas@solarix.mx", "jcortes@solarix.mx"],
     subject: "Nueva respuesta de formulario",
     react: EmailReceiver({
       name,
