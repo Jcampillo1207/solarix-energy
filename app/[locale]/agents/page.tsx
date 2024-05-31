@@ -109,7 +109,7 @@ export default function PlanMax() {
     <main className="w-full flex flex-col">
       <UniversalSection className="w-full h-fit items-start justify-start lg:items-center flex flex-col gap-y-3 px-0 md:px-0 lg:px-0 xl:px-0 pt-0 md:pt-0 lg:pt-0 relative">
         <Header2 className="top-0 sticky" />
-        <div className="mx-auto w-full max-w-3xl flex flex-col gap-y-3 items-start justify-start lg:items-center pt-20 md:pt-28 lg:pt-36">
+        <div className="mx-auto w-full max-w-3xl flex flex-col gap-y-3 items-start justify-start lg:items-center pt-20 md:pt-28 lg:pt-36 px-5 md:px-7">
           <h1 className="text-3xl antialiased text-foreground xl:text-5xl font-semibold text-start lg:text-center text-pretty">
             {t("title")}
           </h1>
