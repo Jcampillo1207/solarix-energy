@@ -14,7 +14,7 @@ export const Footer = () => {
   return (
     <footer className="w-full h-fit flex flex-col items-center justify-start gap-y-14 bg-input py-14 px-5 md:px-7 lg:px-14">
       <div className="w-full h-fit grid grid-cols-2 lg:grid-cols-12 items-stretch justify-center gap-y-16">
-        <span className="w-full h-fit col-span-2 lg:col-span-4 flex flex-row lg:flex-col gap-y-4 justify-between">
+        <span className="w-full h-fit col-span-2 lg:col-span-4 flex flex-col gap-4 justify-between">
           <div className="h-14 aspect-video py-3">
             <Link href={"/"} className="h-full">
               <LogoSolarix />
