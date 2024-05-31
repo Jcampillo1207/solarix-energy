@@ -245,7 +245,6 @@ export const RareSection3Vertical = ({
           </div>
         </div>
       </div>
-      {video && image && (
         <div className="w-full h-full bg-primary relative overflow-hidden flex items-center justify-center">
           {(video && (
             <VideoComponent
@@ -263,7 +262,6 @@ export const RareSection3Vertical = ({
             )) ||
             children}
         </div>
-      )}
     </section>
   );
 };
