@@ -23,7 +23,7 @@ export const HeroUniversal = ({
   sunpower,
 }: HeroUniversalProps) => {
   return (
-    <section className="w-full items-start justify-start flex flex-col relative h-[100dvh]">
+    <section className="w-full items-start justify-start flex flex-col relative min-h-dvh h-dvh">
       <Header />
       <div className="w-full h-full flex flex-col items-start justify-end px-5 md:px-7 lg:px-14 xl:px-36 relative z-20 py-10 md:py-14">
         {(children && children) || (
@@ -44,12 +44,12 @@ export const HeroUniversal = ({
           </div>
         )}
       </div>
-      <div className="w-full h-full items-center justify-center flex absolute top-0 left-0 z-0">
+      <div className="w-full h-full min-h-dvh items-center justify-center flex absolute top-0 left-0 z-0">
         <div className="w-full h-full absolute bg-gradient-to-t from-black/60 via-transparent to-black/60 z-10" />
         <VideoComponent
           video={video}
           control={false}
-          className="h-full w-auto object-cover"
+          className="h-full min-h-dvh w-auto object-cover"
           muted
           loop
         />
