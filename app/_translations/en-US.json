@@ -11,6 +11,7 @@
     "soporte": "Support",
     "plans": "Our Plans",
     "agents": "Advisors",
+    "contact": "Contact",
 
     "homedes": "Solarix Energy, based in Sonora, Mexico, offers high-quality renewable energy solutions for homes, businesses, and industries. Their focus is on driving a sustainable future through products and services that harness the power of the sun and other clean energy sources, providing efficiency and cost reduction.",
     "aboutdes": "Learn more about Solarix Energy and our commitment to sustainability.",
@@ -21,7 +22,8 @@
     "offgriddes": "Off-grid: Isolated projects for locations without grid connection.",
     "soportedes": "Personalized attention and specialized technical support.",
     "plansdes": "Discover our plans designed to meet your energy needs.",
-    "agentsdes": "Our expert advisors are here to help you choose the best solution."
+    "agentsdes": "Our expert advisors are here to help you choose the best solution.",
+    "contactdes": "Get in touch with our team, find the solution and the answer you're looking for."
   },
 
   "Header": {
@@ -448,8 +450,6 @@
         "title9": "Rent Your Roof",
         "text9": "Rent Your Roof is a sister company of Solarix rentatutecho.com"
       }
-
-
     }
   },
 
@@ -552,9 +552,8 @@
         "title4": "BBVA Financial Lease",
         "text4": "Adjusted interest rate for the client TIIE + (3-5pt) Up to 84 months term In USD or MXN Fully tax-deductible Final value agreed in contract (from 1% to 10% depending on the term).",
         "title5": "BBVA Pure Lease",
-       
 
- "text5": "Adjusted interest rate for the client TIIE + (3-5pt) Up to 84 months term Increasing or decreasing rents In USD or MXN Tax-deductible rents.",
+        "text5": "Adjusted interest rate for the client TIIE + (3-5pt) Up to 84 months term Increasing or decreasing rents In USD or MXN Tax-deductible rents.",
         "title6": "Interest-Free Months for BBVA Users.",
         "text6": "We accept payment with any cryptocurrency, with an additional 5% commission.",
         "title7": "Cryptocurrencies",
@@ -615,5 +614,12 @@
       "servp": "e.g. ASF135138135",
       "btn": "Submit Form"
     }
+  },
+
+  "Toast": {
+    "warn": "Complete all fields to continue",
+    "load": "Sending information",
+    "suc": "Information successfully sent, we will contact you shortly",
+    "err": "We couldn't send your information, please try again in a few moments"
   }
 }

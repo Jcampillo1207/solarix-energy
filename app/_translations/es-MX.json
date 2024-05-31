@@ -11,6 +11,7 @@
     "soporte": "Soporte",
     "plans": "Nuestros Planes",
     "agents": "Asesores",
+    "contact": "Contacto",
 
     "homedes": "Solarix Energy, con sede en Sonora, México, ofrece soluciones tecnológicas de energías renovables de alta calidad para hogares, empresas e industrias. Su enfoque es impulsar un futuro sostenible mediante productos y servicios que aprovechan el poder del sol y otras fuentes de energía limpia, brindando eficiencia y reducción de costos.",
     "aboutdes": "Conoce más sobre Solarix Energy y nuestro compromiso con la sostenibilidad.",
@@ -21,7 +22,8 @@
     "offgriddes": "Off-grid: Proyectos aislados para ubicaciones sin conexión a la red.",
     "soportedes": "Atención personalizada y soporte técnico especializado.",
     "plansdes": "Descubre nuestros planes diseñados para satisfacer tus necesidades energéticas.",
-    "agentsdes": "Nuestros asesores expertos están aquí para ayudarte a elegir la mejor solución."
+    "agentsdes": "Nuestros asesores expertos están aquí para ayudarte a elegir la mejor solución.",
+    "contactdes": "Ponte en contacto con nuestro equipo, encuentra la solución y la respuesta a lo que buscas."
   },
 
   "Header": {
@@ -592,7 +594,7 @@
         "title5": "Respaldo de baterías",
         "title6": "Otro"
       },
-      "pagol": "Pago estimdo a CFE",
+      "pagol": "Pago estimado a CFE",
       "pagop": "ej. 8712451",
       "estadol": "Estado",
       "estadop": "Ingresa tu Estado",
@@ -611,5 +613,12 @@
       "servp": "ej. ASF135138135",
       "btn": "Enviar formulario"
     }
+  },
+
+  "Toast": {
+    "warn": "Completa todos los campos para continuar",
+    "load": "Enviando información",
+    "suc": "Información enviada con éxito, enseguida nos contactaremos",
+    "err": "No pudimos enviar tu información, intenta de nuevo en unos momentos"
   }
 }
