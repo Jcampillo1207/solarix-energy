@@ -26,7 +26,7 @@ export async function send(
   const { data } = await resend.emails.send({
     from: "Solarix Energy <ventas@solarix.mx>",
     to: [email],
-    subject: { subject },
+    subject: subject,
     react: EmailUser({
       name,
       email,
