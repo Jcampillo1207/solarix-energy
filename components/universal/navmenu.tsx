@@ -30,14 +30,14 @@ export const NavMenu = () => {
           <Button
             variant={"ghost"}
             size={"icon"}
-            className="text-white"
+            className="text-foreground"
           >
             <MenuIcon className="size-4" />
           </Button>
         </SheetTrigger>
-        <SheetContent>
-          <div className="w-full h-fit items-start justify-start flex flex-col gap-y-3">
-            <div className="w-full h-fit pb-10">
+        <SheetContent className="overflow-scroll pt-0">
+          <div className="w-full h-fit items-start justify-start flex flex-col gap-y-3 relative max-h-[calc(100dvh_-_24px)]">
+            <div className="w-full h-fit pb-10 sticky top-0 z-[9999] bg-background pt-6">
               <SheetClose asChild>
                 <Button
                   variant={"outline"}
@@ -95,7 +95,7 @@ export const NavMenu = () => {
                 asChild
                 className="text-sm font-medium w-full flex items-center justify-between text-muted-foreground"
               >
-                <Link href={"/plans/max"}>
+                <Link href={"/max"}>
                   {t("max")}
                   <ChevronRight className="size-4" />
                 </Link>
@@ -108,7 +108,7 @@ export const NavMenu = () => {
                 asChild
                 className="text-sm font-medium w-full flex items-center justify-between text-muted-foreground"
               >
-                <Link href={"/plans/premium"}>
+                <Link href={"/premium"}>
                   {t("premium")}
                   <ChevronRight className="size-4" />
                 </Link>
@@ -121,7 +121,7 @@ export const NavMenu = () => {
                 asChild
                 className="text-sm font-medium w-full flex items-center justify-between text-muted-foreground"
               >
-                <Link href={"/plans/traditional"}>
+                <Link href={"/traditional"}>
                   {t("traditional")}
                   <ChevronRight className="size-4" />
                 </Link>
@@ -134,7 +134,7 @@ export const NavMenu = () => {
                 asChild
                 className="text-sm font-medium w-full flex items-center justify-between text-muted-foreground"
               >
-                <Link href={"/plans/offgrid"}>
+                <Link href={"/offgrid"}>
                   {t("offgrid")}
                   <ChevronRight className="size-4" />
                 </Link>
@@ -166,19 +166,6 @@ export const NavMenu = () => {
                 </Link>
               </Button>
             </SheetClose>
-            <SheetClose asChild>
-              <Button
-                variant={"ghost"}
-                size={"default"}
-                asChild
-                className="text-sm font-medium w-full flex items-center justify-between text-muted-foreground"
-              >
-                <Link href={"/plans"}>
-                  {t("plans")}
-                  <ChevronRight className="size-4" />
-                </Link>
-              </Button>
-            </SheetClose>
             <div className="w-full h-fit py-5">
               <Separator className="w-full rounded-full" />
             </div>
@@ -189,13 +176,13 @@ export const NavMenu = () => {
             </span>
             <span className="w-full h-fit items-center justify-between flex px-4">
               <p className="tex-sm text-muted-foreground">{t("theme")}</p>
-              <ModeToggle />
+              <ModeToggle className="text-foreground"/>
             </span>
           </div>
         </SheetContent>
       </Sheet>
       <LocaleSwitcher />
-      <ModeToggle />
+      <ModeToggle className="text-foreground"/>
     </>
   );
 };

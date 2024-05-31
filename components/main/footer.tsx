@@ -64,25 +64,25 @@ export const Footer = () => {
             {t("plan")}
           </h2>
           <Link
-            href={"/plans/max"}
+            href={"/max"}
             className="hover:underline hover:text-foreground flex gap-x-2 items-center"
           >
             {t("Planes.max")}
           </Link>
           <Link
-            href={"/plans/premium"}
+            href={"/premium"}
             className="hover:underline hover:text-foreground flex gap-x-1 items-center"
           >
             {t("Planes.premium")}
           </Link>
           <Link
-            href={"/plans/traditional"}
+            href={"/traditional"}
             className="hover:underline hover:text-foreground flex gap-x-2 items-center"
           >
             {t("Planes.tradicional")}
           </Link>
           <Link
-            href={"/plans/offgrid"}
+            href={"/offgrid"}
             className="hover:underline hover:text-foreground flex gap-x-2 items-center"
           >
             {t("Planes.offgrid")}

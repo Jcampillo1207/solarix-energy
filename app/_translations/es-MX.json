@@ -2,7 +2,7 @@
   "Metadata": {
     "home": "Solarix Energy",
     "about": "Nosotros",
-    "sunpower": "Sunpower",
+    "sunpower": "Supower",
     "max": "Plan Max",
     "premium": "Plan Premium",
     "tradicional": "Plan Tradicional",
@@ -10,8 +10,18 @@
     "offgrid": "Off-grid",
     "soporte": "Soporte",
     "plans": "Nuestros Planes",
+    "agents": "Asesores",
 
-    "homedes": "Solarix Energy, con sede en Sonora, México, ofrece soluciones tecnológicas de energías renovables de alta calidad para hogares, empresas e industrias. Su enfoque es impulsar un futuro sostenible mediante productos y servicios que aprovechan el poder del sol y otras fuentes de energía limpia, brindando eficiencia y reducción de costos."
+    "homedes": "Solarix Energy, con sede en Sonora, México, ofrece soluciones tecnológicas de energías renovables de alta calidad para hogares, empresas e industrias. Su enfoque es impulsar un futuro sostenible mediante productos y servicios que aprovechan el poder del sol y otras fuentes de energía limpia, brindando eficiencia y reducción de costos.",
+    "aboutdes": "Conoce más sobre Solarix Energy y nuestro compromiso con la sostenibilidad.",
+    "sunpowerdes": "Supower, nuestro aliado, fabrica paneles solares de alta eficiencia y calidad.",
+    "maxdes": "Plan Max: Soluciones avanzadas para maximizar la eficiencia y reducir costos.",
+    "premiumdes": "Plan Premium: Equilibrio perfecto entre eficiencia y costo para tu hogar o negocio.",
+    "tradicionaldes": "Plan Tradicional: Energía solar accesible y eficiente para todos.",
+    "offgriddes": "Off-grid: Proyectos aislados para ubicaciones sin conexión a la red.",
+    "soportedes": "Atención personalizada y soporte técnico especializado.",
+    "plansdes": "Descubre nuestros planes diseñados para satisfacer tus necesidades energéticas.",
+    "agentsdes": "Nuestros asesores expertos están aquí para ayudarte a elegir la mejor solución."
   },
 
   "Header": {
@@ -24,7 +34,7 @@
     "home": "Inicio",
     "about": "Nosotros",
     "agents": "Asesores",
-    "sunpower": "SunPower",
+    "sunpower": "SUNPOWER",
     "max": "Plan Max",
     "premium": "Plan Premium",
     "traditional": "Plan Tradicional",
@@ -103,7 +113,8 @@
 
   "Universal": {
     "btnCita": "Contáctanos",
-    "btnAgentes": "Nuestros agentes"
+    "btnAgentes": "Nuestros agentes",
+    "btnMore": "Saber Más"
   },
 
   "Home": {
@@ -438,6 +449,126 @@
         "text9": "Renta tu techo Empresa hermana de Solarix rentatutecho.com"
       }
     }
+  },
+
+  "Traditional": {
+    "Hero": {
+      "title": "Celdas Canadian",
+      "subtl": "Plan Tradicional"
+    },
+
+    "Sec2": {
+      "title": "Celdas Canadian",
+      "subtl": "Más energía",
+      "title1": "Mejores celdas a nivel comercial",
+      "text": "Las celdas solares Canadian Solar son altamente reconocidas en la industria fotovoltaica por su calidad y eficiencia. Fabricadas con tecnología de vanguardia, estas celdas ofrecen un rendimiento confiable y una producción constante de energía limpia. La marca Canadian Solar es sinónimo de durabilidad y eficacia, respaldada por años de experiencia en la industria solar y un compromiso con la sostenibilidad.",
+      "items": {
+        "title1": "Potencia del módulo hasta 545 W.",
+        "title2": "Eficiencia del módulo hasta 22,5%.",
+        "title3": "Menor CPE (Costo por energía) y costo del sistema."
+      }
+    },
+
+    "Sec3": {
+      "title": "Por la menor inversión",
+      "subtl": "Mejor rendimiento",
+      "text": "Las Celdas Canadian generarán más energía que los paneles solares estándar desde el primer día. Cada panel está diseñado para maximizar la conversión de energía de la luz solar en electricidad para su hogar.",
+      "items": {
+        "title1": "Menor degradación",
+        "text1": "Hasta un 50 % menos de degradación, gracias a esta baja degradación, los paneles solares Canadian ofrecen una mayor eficiencia y una vida útil prolongada, lo que se traduce en un costo por energía aún más bajo y un retorno de la inversión más rápido para los usuarios.",
+        "title2": "Menor temperatura de punto caliente",
+        "text2": "Los paneles solares Canadian se destacan por tener una menor temperatura de punto caliente en comparación con otros paneles solares convencionales. Esta característica es importante porque reduce el riesgo de daños en los paneles y mejora la eficiencia general del sistema."
+      }
+    },
+
+    "Sec6": {
+      "title": "Nuestros planes",
+      "subtl": "Compara",
+      "text": "En Solarix, presentamos planes diseñados a medida de tus necesidades específicas. Te ofrecemos un análisis detallado de las características de cada uno para que puedas tomar una decisión informada y elegir el que mejor se adapte a tus requerimientos."
+    },
+
+    "Sec7": {
+      "title": "Métodos de pago",
+      "text": "En Solarix, nos comprometemos a brindarte opciones de pago flexibles y convenientes, diseñadas para adaptarse a tus necesidades. Tu satisfacción y confianza son fundamentales para nosotros, por lo que trabajamos incansablemente para garantizar que disfrutes de la mejor experiencia posible al elegir nuestros servicios. Estamos aquí para ayudarte a tomar decisiones informadas y facilitar tus transacciones, siempre priorizando tu comodidad y tranquilidad.",
+      "items": {
+        "title1": "Pago de contado",
+        "text1": "80% de anticipo, 20% una vez terminada la instalación e ingresado el tramite ante la CFE. (El tiempo que toma CFE en realizar el cambio de medidor es independiente a nosotros por lo que el finiquito se realiza una vez ingresado el trámite ante la CFE) Efectivo MXN, Efectivo USD, Transferencia MXN, Transferencia USD en México o USA.",
+        "title2": "Crédito tradicional",
+        "text2": "CiBanco: desde 10% de enganche y hasta 7 años con tasa del 15.75% comisión por apertura del 2%. Desde 60mil hasta 5mdp. Seguro de paneles se puede financiar o de contado. Persona fisica o moral.",
+        "title3": "BBVA: 0% de enganche y hasta 6 años",
+        "text3": "Tasa de Interés ajustado al cliente con reducción del 2% en tasa de interés directo. Desde 1 mdp a 15 mdp Persona física y moral Totalmente deducible de impuestos el primer año.",
+        "title4": "Arrendamiento financiero BBVA",
+        "text4": "Tasa de interés ajustada al cliente TIIE + (3-5pt) Hasta 84 meses de plazo En USD o MXN Totalmente deducible de impuestos Valor final acordado en contrato (desde 1% hasta el 10% dependiendo del plazo).",
+        "title5": "Arrendamiento puro BBVA",
+        "text5": "Tasa de interés ajustada al cliente de TIIE + (3-5pt) Hasta 84 meses de plazo Rentas crecientes o decrecientes En USD o MXN Rentas deducibles de impuestos.",
+        "title6": "Meses sin intereses usuarios BBVA.",
+        "text6": "Aceptamos pago con cualquier criptodivisa, con una comisión adicional del 5%.",
+        "title7": "Criptomonedas",
+        "text7": "Indica que el equipo de instalación de SOLARIX está compuesto por profesionales con conocimientos y experiencia en la instalación de sistemas solares, asegurando un trabajo de alta calidad.",
+        "title8": "Esquema de pagos Solarix",
+        "text8": "Comienza a abonar a tu sistema solar a un plazo máximo de 9 meses, y cuando llegues al 80% se comienza la instalación. Esta opción no lleva intereses ni pagos adicionales, esta opción es ideal para clientes que están construyendo su casa o simplemente que no quieren pagar intereses y no tienen prisa de instalar sus sistema solar.",
+        "title9": "Renta tu techo",
+        "text9": "Renta tu techo Empresa hermana de Solarix rentatutecho.com"
+      }
+    }
+  },
+
+  "Offgrid": {
+    "Hero": {
+      "title": "Off-grid",
+      "subtl": "Proyectos aislados"
+    },
+
+    "Sec2": {
+      "title": "Energía para toda la vida",
+      "subtl": "Inversión segura",
+      "text": "La garantía de 40 años de SunPower Maxeon ofrece una cobertura completa de potencia, producto y servicio líder en el sector. Cada panel SunPower Maxeon está fabricado con absoluta confianza en su capacidad de proporcionar más energía, fiabilidad y ahorro a lo largo del tiempo, respaldada por extensas pruebas de terceros y datos de campo procedentes de más de 33 millones de paneles instalados en todo el mundo.",
+      "items": {
+        "title1": "Consumos diurnos y nocturnos",
+        "text1": "Es esencial realizar un análisis detallado de los consumos energéticos tanto durante el día como durante la noche. Esto implica evaluar el uso de electrodomésticos, equipos electrónicos, sistemas de iluminación y otros dispositivos en diferentes momentos del día. Al conocer tus consumos específicos, podrás dimensionar correctamente el sistema solar y las baterías necesarias para satisfacer tus necesidades energéticas.",
+        "title2": "Almacenamiento de energía",
+        "text2": "Las baterías juegan un papel crucial en los sistemas solares off-grid, ya que permiten almacenar la energía generada durante el día para su uso durante la noche o en momentos de baja radiación solar. Calcular la capacidad de almacenamiento adecuada implica considerar tanto la demanda energética durante la noche como la cantidad de días de autonomía que deseas tener.",
+        "title3": "Excedente de energía",
+        "text3": "Al diseñar un sistema solar off-grid, también puedes considerar generar un excedente de energía. Esto implica dimensionar el sistema de paneles solares y baterías para generar más energía de la necesaria en condiciones óptimas. El excedente puede ser utilizado para abastecer consumos adicionales en días nublados o de mayor demanda energética.",
+        "title4": "Personalización y diseño a medida",
+        "text4": "Cada sistema solar off-grid es único y debe adaptarse a las necesidades y características específicas de cada usuario. Es esencial trabajar con profesionales en energía solar que puedan realizar un análisis detallado de tus consumos, evaluar las condiciones climáticas de tu ubicación y utilizar herramientas de diseño solar avanzadas. Con esta información, podrán dimensionar el sistema solar y las baterías de manera precisa, asegurando un suministro energético confiable y optimizado. Recuerda que un sistema solar off-grid o aislado debe ser diseñado con precisión, teniendo en cuenta tus necesidades energéticas específicas y las condiciones locales.",
+        "title5": "Duración y patrón de uso",
+        "text5": "Es importante tener en cuenta cuántos días al mes o al año planeas utilizar el sistema solar off-grid. Si es para uso continuo o solo en momentos específicos, esto influirá en el cálculo del tamaño del sistema y la capacidad de almacenamiento requerida. Además, es importante considerar los patrones de consumo estacionales y las variaciones en la radiación solar a lo largo del año para ajustar correctamente el diseño del sistema."
+      }
+    },
+
+    "Sec7": {
+      "title": "Métodos de pago",
+      "text": "En Solarix, nos comprometemos a brindarte opciones de pago flexibles y convenientes, diseñadas para adaptarse a tus necesidades. Tu satisfacción y confianza son fundamentales para nosotros, por lo que trabajamos incansablemente para garantizar que disfrutes de la mejor experiencia posible al elegir nuestros servicios. Estamos aquí para ayudarte a tomar decisiones informadas y facilitar tus transacciones, siempre priorizando tu comodidad y tranquilidad.",
+      "items": {
+        "title1": "Pago de contado",
+        "text1": "80% de anticipo, 20% una vez terminada la instalación e ingresado el tramite ante la CFE. (El tiempo que toma CFE en realizar el cambio de medidor es independiente a nosotros por lo que el finiquito se realiza una vez ingresado el trámite ante la CFE) Efectivo MXN, Efectivo USD, Transferencia MXN, Transferencia USD en México o USA.",
+        "title2": "Crédito tradicional",
+        "text2": "CiBanco: desde 10% de enganche y hasta 7 años con tasa del 15.75% comisión por apertura del 2%. Desde 60mil hasta 5mdp. Seguro de paneles se puede financiar o de contado. Persona fisica o moral.",
+        "title3": "BBVA: 0% de enganche y hasta 6 años",
+        "text3": "Tasa de Interés ajustado al cliente con reducción del 2% en tasa de interés directo. Desde 1 mdp a 15 mdp Persona física y moral Totalmente deducible de impuestos el primer año.",
+        "title4": "Arrendamiento financiero BBVA",
+        "text4": "Tasa de interés ajustada al cliente TIIE + (3-5pt) Hasta 84 meses de plazo En USD o MXN Totalmente deducible de impuestos Valor final acordado en contrato (desde 1% hasta el 10% dependiendo del plazo).",
+        "title5": "Arrendamiento puro BBVA",
+        "text5": "Tasa de interés ajustada al cliente de TIIE + (3-5pt) Hasta 84 meses de plazo Rentas crecientes o decrecientes En USD o MXN Rentas deducibles de impuestos.",
+        "title6": "Meses sin intereses usuarios BBVA.",
+        "text6": "Aceptamos pago con cualquier criptodivisa, con una comisión adicional del 5%.",
+        "title7": "Criptomonedas",
+        "text7": "Indica que el equipo de instalación de SOLARIX está compuesto por profesionales con conocimientos y experiencia en la instalación de sistemas solares, asegurando un trabajo de alta calidad.",
+        "title8": "Esquema de pagos Solarix",
+        "text8": "Comienza a abonar a tu sistema solar a un plazo máximo de 9 meses, y cuando llegues al 80% se comienza la instalación. Esta opción no lleva intereses ni pagos adicionales, esta opción es ideal para clientes que están construyendo su casa o simplemente que no quieren pagar intereses y no tienen prisa de instalar sus sistema solar.",
+        "title9": "Renta tu techo",
+        "text9": "Renta tu techo Empresa hermana de Solarix rentatutecho.com"
+      }
+    }
+  },
+
+  "Agents": {
+    "title": "Encuentra a tu asesor de energía ideal",
+    "text": "En Solarix decidimos darte siempre la mejor experiencia de compra, aquí podrás encontrar a un asesor que se ajuste a tus necesidades.",
+    "btn1": "Nuestros planes",
+    "btn2": "Contáctanos",
+    "ases": "Asesor de energía"
   },
 
   "Contact": {

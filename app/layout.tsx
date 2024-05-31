@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 
-const inter = Raleway({ subsets: ["latin"] });
+const inter = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",

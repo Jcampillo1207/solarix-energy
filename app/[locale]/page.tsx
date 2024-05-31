@@ -106,14 +106,14 @@ export default function Home() {
         title={t("Sec3.title")}
         subtl={t("Sec3.subtl")}
         text={t("Sec3.text")}
-        video="/portada.webm"
+        video="/sec1.mp4"
       />
       <RareSection2
         btn={u("btnCita")}
         title={t("Sec5.title")}
         subtl={t("Sec5.subtl")}
         text={t("Sec5.text")}
-        video="/portada.webm"
+        image="/maxin.JPG"
       />
       <GridSection
         title={t("Sec6.title")}
@@ -141,7 +141,7 @@ export default function Home() {
         title={t("Sec8.title")}
         subtl={t("Sec8.subtl")}
         text={t("Sec8.text")}
-        video="/portada.webm"
+        video="/anim.mp4"
       />
     </main>
   );

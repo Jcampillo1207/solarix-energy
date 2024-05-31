@@ -42,7 +42,7 @@ const CardSpotlight = ({children}:{children: React.ReactNode}) => {
       onBlur={handleBlur}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-xl bg-background0"
+      className="relative flex h-full group w-full items-center justify-center overflow-hidden rounded-xl bg-background0"
     >
       <div
         className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
