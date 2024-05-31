@@ -176,7 +176,7 @@ export const RareSection2 = ({
           </div>
         </div>
       </div>
-      <div className="w-full h-fit min-h-[400px] lg:min-h-0 bg-primary relative overflow-hidden flex items-center justify-center col-span-1 lg:col-span-8">
+      <div className="w-full h-fit min-h-[400px] lg:h-full lg:min-h-0 bg-primary relative overflow-hidden flex items-center justify-center col-span-1 lg:col-span-8">
         {(video && (
           <VideoComponent
             video={video}

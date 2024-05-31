@@ -11,6 +11,8 @@ interface LocaleProps {
   };
 }
 
+
+
 async function LocaleLayout({ children, params: { locale } }: LocaleProps) {
   let messages = (await import(`@/app/_translations/${locale}.json`)).default;
   return (
