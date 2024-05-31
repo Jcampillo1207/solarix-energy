@@ -94,7 +94,7 @@ export default function About() {
     <main className="w-full flex flex-col">
       <HeroUniversal
         video="/nos.webm"
-        cover="/portada.png"
+        cover="/portabout.png"
         title={t("Hero.subtl")}
       />
       <Sec2

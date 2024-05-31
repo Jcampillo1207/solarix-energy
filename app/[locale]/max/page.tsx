@@ -122,7 +122,7 @@ export default function PlanMax() {
     <main className="w-full flex flex-col">
       <HeroUniversal
         video="/solareon.webm"
-        cover="/portada.png"
+        cover="/portmax.png"
         title={t("Hero.subtl")}
         subtitle={t("Hero.title")}
       />
