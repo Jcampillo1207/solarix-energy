@@ -41,16 +41,16 @@ export default function LocaleSwitcher({className}: {className?: string}) {
         <Button
           variant={"ghost"}
           size={"icon"}
-          className={cn("hidden md:flex", className)}
+          className={cn("hidden md:flex text", className)}
         >
           {flagIcons[locale as Locale]}
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="flex flex-col w-fit">
+      <PopoverContent className="flex flex-col w-fit space-y-1">
         {locales.map((loc) => (
           <Button
             key={loc}
-            variant={"outline"}
+            variant={"ghost"}
             size={"icon"}
             onClick={() => switchLocale(loc as Locale)}
           >

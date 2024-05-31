@@ -50,7 +50,7 @@ export const Sec4 = ({ title, text, items }: GridSectionProps) => {
             className="object-cover"
           />
         </div>
-        <div className="w-full h-full items-start justify-start flex flex-col">
+        <div className="w-full h-fit lg:h-full items-start justify-start flex flex-col">
           {items.map((item, index) => (
             <span
               key={index}

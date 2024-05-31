@@ -19,7 +19,7 @@ export const UniversalBanner = () => {
           alt="Banner"
         />
       </div>
-        <OnTitle className="z-10 text-center">{t("text")}</OnTitle>
+        <OnTitle className="z-10 text-center text-white">{t("text")}</OnTitle>
         <Button
           variant={"default"}
           size={"lg"}

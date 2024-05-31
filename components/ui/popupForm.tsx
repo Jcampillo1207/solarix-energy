@@ -78,7 +78,7 @@ export const PopupForm = ({ btn }: { btn: string }) => {
           </div>
         </Button>
       </DialogTrigger>
-      <DialogContent>
+      <DialogContent className="max-h-[70vh] overflow-scroll">
         <form
           action=""
           className="w-full h-fit items-start justify-start grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-7 max-w-5xl"

@@ -3,11 +3,17 @@ import { LogoSolarix } from "../vectors/logoSolarix";
 import { NavMenu } from "./navmenu";
 import { Button } from "../ui/button";
 import { useTranslations } from "next-intl";
+import { cn } from "@/lib/utils";
 
-export const Header = () => {
+export const Header = ({ className }: { className?: string }) => {
   const t = useTranslations("Header");
   return (
-    <header className="w-full h-16 items-center py-3 justify-between flex px-5 md:px-7 lg:px-14 xl:px-36 sticky top-0 z-[99999] bg-transparent backdrop-blur-[2px]">
+    <header
+      className={cn(
+        "w-full h-16 items-center py-3 justify-between flex px-5 md:px-7 lg:px-14 xl:px-36 sticky top-0 z-[99999] bg-transparent backdrop-blur-[2px]",
+        className
+      )}
+    >
       <Link
         href={"/"}
         className="w-auto h-full flex items-center justify-start"
@@ -48,7 +54,7 @@ export const Header = () => {
           asChild
           className="text-sm font-medium text-white"
         >
-          <Link href={"/plans/max"}>{t("max")}</Link>
+          <Link href={"/max"}>{t("max")}</Link>
         </Button>
         <Button
           variant={"ghost"}
@@ -56,7 +62,7 @@ export const Header = () => {
           asChild
           className="text-sm font-medium text-white"
         >
-          <Link href={"/plans/premium"}>{t("premium")}</Link>
+          <Link href={"/premium"}>{t("premium")}</Link>
         </Button>
         <Button
           variant={"ghost"}
@@ -64,7 +70,7 @@ export const Header = () => {
           asChild
           className="text-sm font-medium text-white"
         >
-          <Link href={"/plans/traditional"}>{t("traditional")}</Link>
+          <Link href={"/traditional"}>{t("traditional")}</Link>
         </Button>
       </div>
     </header>

@@ -78,7 +78,7 @@ export const RareSection = ({
         className
       )}
     >
-      <div className="w-full h-full bg-primary relative overflow-hidden flex items-center justify-center col-span-1 lg:col-span-8">
+      <div className="w-full h-fit lg:h-full bg-primary relative overflow-hidden flex items-center justify-center col-span-1 lg:col-span-8">
         {(video && (
           <VideoComponent
             video={video}
@@ -95,8 +95,8 @@ export const RareSection = ({
           )) ||
           children}
       </div>
-      <div className="col-span-1 lg:col-span-4 w-full h-full items-start flex flex-col px-5 md:px-7 lg:px-14 xl:px-36 lg:pl-7 xl:pl-7 py-10 lg:py-14 xl:py-20 justify-between">
-        <div className="flex flex-col items-start justify-between gap-y-5 w-full h-full">
+      <div className="col-span-1 lg:col-span-4 w-full h-fit lg:h-full items-start flex flex-col px-5 md:px-7 lg:px-14 xl:px-36 lg:pl-7 xl:pl-7 py-10 lg:py-14 xl:py-20 justify-between">
+        <div className="flex flex-col items-start justify-between gap-y-5 w-full h-fit lg:h-full">
           <div className="w-full h-fit items-start justify-start flex flex-col gap-y-7">
             <span className="flex flex-col items-start justify-start">
               <OnSubtitle>{subtl}</OnSubtitle>
@@ -147,8 +147,8 @@ export const RareSection2 = ({
         className
       )}
     >
-      <div className="col-span-1 lg:col-span-4 w-full h-full items-start flex flex-col px-5 md:px-7 lg:px-14 xl:px-36 lg:pr-7 xl:pr-7 py-10 lg:py-14 xl:py-20 justify-between">
-        <div className="flex flex-col items-start justify-between gap-y-5 w-full h-full">
+      <div className="col-span-1 lg:col-span-4 w-full h-fit lg:h-full items-start flex flex-col px-5 md:px-7 lg:px-14 xl:px-36 lg:pr-7 xl:pr-7 py-10 lg:py-14 xl:py-20 justify-between">
+        <div className="flex flex-col items-start justify-between gap-y-5 w-full h-fit lg:h-full">
           <div className="w-full h-fit items-start justify-start flex flex-col gap-y-7">
             <span className="flex flex-col items-start justify-start">
               <OnSubtitle>{subtl}</OnSubtitle>
@@ -161,7 +161,7 @@ export const RareSection2 = ({
               <Button
                 variant={"default"}
                 size={"lg"}
-                className="w-full items-center bg-foreground hover:bg-foreground/80 flex gap-x-2 group mt-5"
+                className="w-full items-center bg-foreground hover:bg-foreground/80 flex gap-x-2 group lg:mt-5"
                 asChild
               >
                 <Link href={refer}>
@@ -176,7 +176,7 @@ export const RareSection2 = ({
           </div>
         </div>
       </div>
-      <div className="w-full h-full bg-primary relative overflow-hidden flex items-center justify-center col-span-1 lg:col-span-8">
+      <div className="w-full h-fit min-h-[400px] lg:min-h-0 bg-primary relative overflow-hidden flex items-center justify-center col-span-1 lg:col-span-8">
         {(video && (
           <VideoComponent
             video={video}
@@ -216,8 +216,8 @@ export const RareSection3Vertical = ({
         className
       )}
     >
-      <div className="w-full h-full items-start grid grid-cols-2 px-5 md:px-7 lg:px-14 xl:px-36 lg:pl-7 xl:pl-7 py-10 lg:py-14 xl:py-20 justify-between">
-        <div className="flex flex-col items-start justify-between gap-y-5 w-full h-full">
+      <div className="w-full h-fit lg:h-full items-start grid grid-cols-1 lg:grid-cols-2 px-5 md:px-7 lg:px-14 xl:px-36 lg:pl-7 xl:pl-7 py-10 lg:py-14 xl:py-20 justify-between">
+        <div className="flex flex-col items-start justify-between gap-y-5 w-full h-fit">
           <div className="w-full h-fit items-start justify-start flex flex-col gap-y-7">
             <span className="flex flex-col items-start justify-start">
               <OnSubtitle>{subtl}</OnSubtitle>
@@ -245,23 +245,23 @@ export const RareSection3Vertical = ({
           </div>
         </div>
       </div>
-      <div className="w-full h-full bg-primary relative overflow-hidden flex items-center justify-center">
-        {(video && (
-          <VideoComponent
-            video={video}
-            className="h-auto w-full object-cover"
-          />
-        )) ||
-          (image && (
-            <Image
-              src={image as string}
-              fill
-              className="object-cover"
-              alt="Image"
+        <div className="w-full h-full bg-primary relative overflow-hidden flex items-center justify-center">
+          {(video && (
+            <VideoComponent
+              video={video}
+              className="h-auto w-full object-cover"
             />
           )) ||
-          children}
-      </div>
+            (image && (
+              <Image
+                src={image as string}
+                fill
+                className="object-cover"
+                alt="Image"
+              />
+            )) ||
+            children}
+        </div>
     </section>
   );
 };
